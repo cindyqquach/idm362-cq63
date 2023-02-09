@@ -13,6 +13,7 @@
 		C3A60925298B1C3C003A9050 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3A60923298B1C3C003A9050 /* Main.storyboard */; };
 		C3A60927298B1C3C003A9050 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3A60926298B1C3C003A9050 /* Assets.xcassets */; };
 		C3A6092A298B1C3C003A9050 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3A60928298B1C3C003A9050 /* LaunchScreen.storyboard */; };
+		C3B03523299552E9007EEEE4 /* ViewControllerSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3B03522299552E9007EEEE4 /* ViewControllerSettings.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		C3A60926298B1C3C003A9050 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C3A60929298B1C3C003A9050 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C3A6092B298B1C3C003A9050 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C3B03522299552E9007EEEE4 /* ViewControllerSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerSettings.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				C3A6091F298B1C3C003A9050 /* SceneDelegate.swift */,
 				C3A60921298B1C3C003A9050 /* ViewController.swift */,
 				C3A60923298B1C3C003A9050 /* Main.storyboard */,
+				C3B03522299552E9007EEEE4 /* ViewControllerSettings.swift */,
 				C3A60926298B1C3C003A9050 /* Assets.xcassets */,
 				C3A60928298B1C3C003A9050 /* LaunchScreen.storyboard */,
 				C3A6092B298B1C3C003A9050 /* Info.plist */,
@@ -141,6 +144,7 @@
 				C3A60922298B1C3C003A9050 /* ViewController.swift in Sources */,
 				C3A6091E298B1C3C003A9050 /* AppDelegate.swift in Sources */,
 				C3A60920298B1C3C003A9050 /* SceneDelegate.swift in Sources */,
+				C3B03523299552E9007EEEE4 /* ViewControllerSettings.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,6 +294,7 @@
 				DEVELOPMENT_TEAM = 3VZHR7Z55D;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "idm362-cq63/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Bloom Buddy";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -318,6 +323,7 @@
 				DEVELOPMENT_TEAM = 3VZHR7Z55D;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "idm362-cq63/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Bloom Buddy";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
